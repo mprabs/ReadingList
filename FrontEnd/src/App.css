@@ -1,0 +1,49 @@
+.App {
+  border: 1px solid black;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+html {
+  width: 500px;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+textarea {
+  height: 100%;
+}
+
+button {
+  margin-top: 2rem;
+}
+
+.data-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.data-item span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.data-item p {
+  font-size: 13px;
+}
+
+hr {
+  width: 100%;
+}
